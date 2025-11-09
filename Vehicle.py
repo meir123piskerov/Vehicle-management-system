@@ -14,11 +14,11 @@ class Vehicle(ABC):
 
     def set__plate_license(self, set):
         if set:
-            return True
+            self.__license_plate =set
 
     def set__year(self, set):
         if set:
-            return True
+            self.__year = set
 
     @abstractmethod
     def calculate_annual_tax(self):

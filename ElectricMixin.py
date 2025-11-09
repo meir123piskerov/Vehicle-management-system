@@ -1,3 +1,3 @@
 class ElectricMixin:
     def charge(self):
-        return 
+        return f'the car is charging'
